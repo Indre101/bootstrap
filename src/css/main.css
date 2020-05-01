@@ -1,0 +1,84 @@
+* {
+  border: 0 !important;
+}
+h1 {
+  font-size: 1.2rem;
+}
+
+.aside-info .list-group-item {
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.restOfTheContent {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+form input {
+  border-radius: 0 15px 15px 0;
+  padding-left: 2px;
+  height: 25px;
+}
+
+form img {
+  height: 25px;
+}
+
+.fa-twitter:before,
+.fa.fa-facebook-f:before,
+.fa-free-code-camp:before,
+.fa-forumbee:before,
+.fa-google:before {
+  height: 2rem;
+  width: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  color: #c1bfbf;
+}
+
+.articles img {
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.carousel-item {
+  height: 70vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: top;
+}
+
+.paginationjs .paginationjs-nav {
+  margin-left: 0;
+}
+
+.paginationjs {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.paginationjs-nav,
+.paginationjs .paginationjs-pages li > a {
+  background-color: #eeeeee;
+  padding: 0 8px;
+  margin: 0 1px;
+  border-radius: none;
+  color: #9a9a9a;
+}
+
+.paginationjs .paginationjs-pages li:first-child,
+.paginationjs .paginationjs-pages li:first-child > a {
+  border-radius: 0;
+}

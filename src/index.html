@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="	https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.css"
+    />
+    <script
+      defer
+      src="https://kit.fontawesome.com/c09bc1f01b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Coffee</title>
+  </head>
+
+  <body>
+    <div class="container b-0">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark row fixed-top align-items-sm-start justify-content-sm-around px-4 py-3 px-lg-5 bg-dark"
+      >
+        <a
+          class="navbar-brand d-flex col-sm-6 p-0 pt-md-4 col-lg-4 flex-column"
+          href="#"
+        >
+          <h1 class="m-sm-0">
+            NORDICK <span class="navbar-brand-offwhite">BARISTACUP</span>
+          </h1>
+          <p class="d-none d-sm-block context">
+            be together act together learn together
+          </p>
+        </a>
+        <div
+          class="row mx-auto p-0 my-0 mx-sm-0 my-sm-0 menu-options h-100 justify-content-sm-end col-sm-5 ml-sm-0 col-lg-8 align-items-center"
+        >
+          <form
+            action="/action_page.php"
+            class="col-sm-12 col-6 d-flex pl-sm-1 p-0 justify-content-sm-end"
+          >
+            <img src="./img/icons/search.svg" alt="Search" class="p-1" />
+            <input type="text" placeholder="Search.." name="search" />
+          </form>
+
+          <button
+            class="navbar-toggler col-6 col-sm-12 d-flex justify-content-end mt-sm-4 d-lg-none pt-sm-4 p-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse col-sm-12 pt-md-2 pt-lg-5 justify-content-md-end p-lg-0"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav text-sm-right">
+              <li class="nav-item active">
+                <a class="nav-link context" href="#about">About NBC</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link context" href="#aside">2011 Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link context" href="#aside">Nordic Roaster</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link context" href="#results">Results</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link context" href="#about">Links</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link context" href="#about">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- start -->
+
+    <div class="container-fluid restOfTheContent p-0 h-100">
+      <!-- **********
+        IMAGE CAROUSEL
+    ************** -->
+
+      <div
+        id="carouselpaginationlidesOnly"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner pt-2"></div>
+        <template class="crousel-item-template">
+          <div class="carousel-item" data-interval="2000">
+            <img src="..." class="d-block w-100 h-100" alt="..." />
+          </div>
+        </template>
+
+        <!-- **********
+    SoMe Menu
+************ -->
+        <div class="container-fluid hero py-4 px-3 bg-dark">
+          <div class="row row-cols-1 no-gutters">
+            <h2 class="col col-lg-8 searchable no-gutters">
+              “To create an environment in which knowledge about coffee and its
+              sphere can be obtained”
+            </h2>
+            <nav class="nav col row row-cols-5 pt-3 col-lg-4 no-gutters">
+              <a
+                class="nav-link col d-flex justify-content-start justify-content-lg-end"
+                href="#"
+                ><i
+                  class="fa fa-twitter d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex justify-content-lg-end" href="#"
+                ><i
+                  class="fa fa-facebook-f d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex justify-content-lg-end" href="#"
+                ><i
+                  class="fa fa-free-code-camp d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex justify-content-lg-end" href="#"
+                ><i
+                  class="fa fa-forumbee d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex justify-content-lg-end" href="#"
+                ><i
+                  class="fa fa-google d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <!-- ************
+        ARTICLES
+        ************* -->
+
+      <div class="row no-gutters">
+        <div class="container-fluid col-lg-9 px-4">
+          <div class="row articles mt-5"></div>
+          <template class="article-card">
+            <div class="card my-4 modal-lg modal-xl pb-5">
+              <div class="row no-gutters pl-lg-3">
+                <div class="col-md-4">
+                  <img
+                    src="..."
+                    class="card-img img-fluid h-100"
+                    alt="Article "
+                  />
+                </div>
+                <div class="col-md-8 px-sm-4">
+                  <div
+                    class="card-body py-3 py-sm-0 px-0 d-flex flex-column h-100"
+                  >
+                    <h3 class="card-title mb-0">Card title</h3>
+                    <p class="card-text">
+                      <small class="text-small">Last updated 3 mins ago</small>
+                    </p>
+                    <p class="card-text article-description">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+
+                    <button
+                      type="button btn"
+                      class="btn btn-more mt-auto"
+                      data-toggle="collapse"
+                      data-target="#"
+                      aria-expanded="false"
+                      aria-controls=""
+                    >
+                      Read more
+                    </button>
+                  </div>
+                </div>
+                <div class="collapse col-12 mt-2" id="">
+                  <div class="card card-body extra-text p-0">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life
+                    accusamus terry richardson ad squid. Nihil anim keffiyeh
+                    helvetica, craft beer labore wes anderson cred nesciunt
+                    sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </template>
+
+          <nav
+            aria-label="Page navigation "
+            class="pagination mb-4 row pl-lg-3"
+          ></nav>
+        </div>
+
+        <!-- *************
+    ASIDE Cards
+  ****************** -->
+        <div
+          id="aside"
+          class="container-fluid col-lg-3 px-4 pl-lg-5 aside-info-container"
+        >
+          <div class="list-group aside-info row">
+            <div class="list-group-item py-2 px-0">
+              <div class="d-flex w-100 justify-content-between">
+                <h3 class="mb-4 mt-4 mt-lg-5">NBC Shop</h3>
+              </div>
+              <p class="mb-1">Your shopping cart is empty</p>
+              <a href="">
+                <p class="mb-1">Visit the shop</p>
+              </a>
+            </div>
+            <div class="list-group-item py-2 px-0">
+              <div class="d-flex w-100 justify-content-between">
+                <h3 class="mb-4 mt-5">Next Event</h3>
+              </div>
+              <ul class="list-group mt-4">
+                <li class="list-group-item p-0 pb-1">
+                  Nordic Barista Cup 2011
+                </li>
+                <li class="list-group-item p-0 pb-1">Copenhagen, Denmark</li>
+                <li class="list-group-item p-0 pb-1">
+                  Dates : 25th - 27th August 2011
+                </li>
+                <li class="list-group-item p-0 pb-4">Theme : SENSORY</li>
+              </ul>
+              <a href="">
+                <p class="m-0">Sign up now.</p>
+              </a>
+            </div>
+            <div id="results" class="list-group-item py-2 px-0 pb-5">
+              <div class="d-flex w-100 justify-content-between">
+                <h3 class="mt-5">Scoreboard</h3>
+              </div>
+              <p class="mt-4">List of winners from past years</p>
+              <ul class="list-group mt-4">
+                <li class="list-group-item p-1">2011 - ?</li>
+                <li class="list-group-item p-1">2010 - Sweden</li>
+                <li class="list-group-item p-1">2009 - Denmark</li>
+                <li class="list-group-item p-1">2007 - Sweden</li>
+                <li class="list-group-item p-1">2006 - Norway</li>
+                <li class="list-group-item p-1">2005 - Norway</li>
+                <li class="list-group-item p-1">2004 - Denmark</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ************
+    SPONSORS
+  ************ -->
+
+      <div class="container-fluid pt-5 px-2 px-lg-4">
+        <h3>Nordic Barista Cup Sponsors</h3>
+
+        <ul class="list-group sponsorsList row flex-row mt-5"></ul>
+      </div>
+      <!-- ************
+  ABOUT CONATACT
+************** -->
+
+      <div
+        id="about"
+        class="container-fluid info mt-5 pt-5 px-2 px-lg-4 bg-dark text-light"
+      >
+        <div class="row">
+          <div class="col-sm-12 pb-5 col-lg-4">
+            <h4 class="card-title">About Nordic Barista Cup</h4>
+            <p class="card-text">
+              The vision within the Nordic Barista Cup is:
+            </p>
+            <q class="pt-3"
+              >To create an environment in which knowledge about coffee and its
+              sphere can be obtained</q
+            >
+            <p class="pt-3">
+              ’...create an environment…’ Combined with personally absorption
+              having the opportunity to see and experience countries, people,
+              traditions etc. will always serve as a source of inspiration in
+              our daily work. The organization behind the Nordic Barista Cup see
+              it as its main purpose to be a part of creating this forum in
+              which people can meet, bond and achieve further knowledge.
+            </p>
+          </div>
+          <div class="col-sm pb-5 col-lg-4">
+            <h4 class="card-title">NBC Flickr Stream</h4>
+            <div class="container">
+              <div class="row">
+                <img
+                  src="./img/collage/img1.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+                <img
+                  src="./img/collage/img2.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+                <img
+                  src="./img/collage/img3.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+              </div>
+              <div class="row">
+                <img
+                  src="./img/collage/img4.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+                <img
+                  src="./img/collage/img5.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+                <img
+                  src="./img/collage/img6.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+              </div>
+              <div class="row">
+                <img
+                  src="./img/collage/img7.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+                <img
+                  src="./img/collage/img8.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+                <img
+                  src="./img/collage/img9.jpg"
+                  class="img-thumbnail col-3 m-1"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-sm pb-5 col-lg-4">
+            <h4 class="card-title">Contact</h4>
+            <p class="name">Nordic Barista Cup</p>
+            <address>
+              Amagertorv 13 <br />
+              1160 Copenhagen K <br />
+              +45 33 12 04 28 <br />
+              CVR: 11427693 <br />
+              Email: bbrend@nordicbaristacup.com
+            </address>
+            <nav class="nav row row-cols-5 pt-3 no-gutters">
+              <a class="nav-link col d-flex" href="#"
+                ><i
+                  class="fa fa-twitter d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex" href="#"
+                ><i
+                  class="fa fa-facebook-f d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex" href="#"
+                ><i
+                  class="fa fa-free-code-camp d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex" href="#"
+                ><i
+                  class="fa fa-forumbee d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+              <a class="nav-link col d-flex" href="#"
+                ><i
+                  class="fa fa-google d-flex justify-content-center align-items-center p-3 rounded-circle"
+                ></i
+              ></a>
+            </nav>
+          </div>
+          <div class="col-12 pb-5 text-danger">
+            <h4>Bootstrap, Pagination</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- closing -->
+    </div>
+    <!--**************
+SCRIPTS
+*******************  -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.es6.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.5/pagination.min.js"></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
